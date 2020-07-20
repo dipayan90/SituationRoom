@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Jumbotron from "react-bootstrap/Jumbotron"
 import KeyStats from "./KeyStats/KeyStats"
+import Drilldown from "./Drilldown/Drilldown"
 import './Dashboard.css'
 
 
@@ -22,6 +23,9 @@ export default class Dashboard extends Component {
                 <h1>Alarms Drilldown</h1>
             </Jumbotron>                    
             </Col>
+        </Row>
+        <Row>
+          <Drilldown></Drilldown>
         </Row>
     </Container>
       );
