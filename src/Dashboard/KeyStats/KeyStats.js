@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-    PieChart, Pie, Legend, Tooltip, ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, BarChart, Bar, Cell
+    PieChart, Pie, Legend, Tooltip, ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, BarChart, Bar
   } from 'recharts';
 
 
